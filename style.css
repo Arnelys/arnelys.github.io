@@ -1,0 +1,13 @@
+/* Global */
+
+a {
+	color: #FFC000;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+a:hover {
+	font-size: 40px;
+}
