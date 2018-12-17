@@ -1,0 +1,49 @@
+p, img, ol {
+		display: block;
+		margin: 20px auto;
+	}
+
+	ol {
+		display: block;
+		width: 10%;
+	}
+
+	p{
+		text-align: center;
+	}
+	img{
+		width: 300px;
+		text-align: center;
+	}
+	h1{color: slateblue;
+		font-weight: bold;
+		text-align: center;}
+	body{
+		background-color: rgb(255, 200, 127);
+		margin: 10px;
+	}
+	.pirma{
+		font-size: 15pt;
+		width: 600px;
+		outline-style: solid;
+	}
+	.antra{
+		 width: 600px;
+    	border: 25px solid green;
+    	padding: 25px;
+    	outline-style: dotted;
+	}
+	#autorius{
+		color: red;
+		font-weight: italic;
+	}
+	a {
+		text-decoration: none;
+	}
+
+	a h1 {
+		transition: transform 1000ms cubic-bezier(.6,-1.44,.42,1.55);
+	}
+	a:hover h1 {
+		transform: rotate(360deg) scale(1.2);
+	}
