@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+}
+
+.main-div{
+	border: 3px solid black;
+	height: 350px;
+	width: 320px;
+	margin: 150px;
+	margin-left: 160px;
+	text-align: center;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box-link{
+	text-decoration: none;
+}
+
+.box-link:visited{
+	color: black;
+}
+
+.box-link:hover{
+	color: #404040;
+	transition: 0.2s ease-in;
+}
+
+.window{
+	height: 969px;
+	width: 1920px;
+	margin: none;
+	background-image: url(./images/prism.png);
+}
+
+.header{
+	height: 30px;
+	width: 1910px;
+}
+
+.top{
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	padding: 20px;
+	text-align: right;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.name{
+	margin: auto;
+	height: 30px;
+	width: 300px;
+	border: 3px solid black;
+	font-size: 25px;
+}
+
+.about{
+	margin: auto;
+	height: 30px;
+	width: 1520px;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.link:visited{
+	color: black;
+}
+
+.link:hover{
+	color: grey;
+	transition: 0.2s ease-in;
+}
+
+.text-box{
+	float-left;
+	height: 200px;
+	width: 320px;
+	border-top: 3px solid black;
+}
+
+.news-title{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.picture-box{
+	width: 320px;
+	height: 180px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.first-picture{
+	background-image: url(./images/plane.jpg);
+}
+
+.second-picture{
+	background-image: url(./images/boss.jpg);
+}
+
+.third-picture{
+	background-image: url(./images/skull.jpg);
+}
+
+.contacts{
+	margin: auto;
+	height: 80px;
+	width: 300px;
+	border: 3px solid black;
+}
