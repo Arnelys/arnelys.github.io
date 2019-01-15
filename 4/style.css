@@ -26,16 +26,12 @@ a{
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.box-link{
-	text-decoration: none;
-}
-
-.box-link:visited{
+a:visited{
 	color: black;
 }
 
-.box-link:hover{
-	color: #404040;
+a:hover{
+	color: grey;
 	transition: 0.2s ease-in;
 }
 
@@ -75,19 +71,6 @@ a{
 .about{
 	width: 80%;
 	text-align: right;
-}
-
-.link{
-	text-decoration: none;
-}
-
-.link:visited{
-	color: black;
-}
-
-.link:hover{
-	color: grey;
-	transition: 0.2s ease-in;
 }
 
 .text-box{
