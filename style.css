@@ -1,5 +1,14 @@
 /* Global */
 
+.project{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 50px;
+	width: 500px;
+}
+
 a {
 	color: #FFC000;
 	font-size: 25px;
