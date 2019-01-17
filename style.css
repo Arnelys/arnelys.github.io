@@ -12,7 +12,7 @@
 }
 
 a {
-	color: #FFC000;
+	color: black;
 	font-size: 25px;
 	text-decoration: none;
 	font-weight: bold;
@@ -21,9 +21,5 @@ a {
 
 a:hover {
 	font-size: 27px;
-	text-shadow:
-   	-1px -1px 0 #000,  
-    	1px -1px 0 #000,
-    	-1px 1px 0 #000,
-     	1px 1px 0 #000;
+	transition: 0.2s ease-in;
 }
